@@ -1,0 +1,37 @@
+.mui-content-padded{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.mui-btn{
+	padding: 10px;
+}
+
+.question{	
+}
+
+body{
+	background-color: #FFFFFF;
+}
+
+.mui-input-group:before,.mui-input-group:after{
+	height: 0;
+}
+
+.forget-password{
+	float: left;
+	margin-left: 30%;
+	border-right-color: grey;
+}
+.reg{
+	float: right;
+	margin-right: 30%;
+}
+.middleline{
+	width: 1px;
+	height: 19px;
+	background-color: gray;
+	display: inline-block;
+	position: absolute;
+	right:50%;
+}

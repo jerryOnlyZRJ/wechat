@@ -1,0 +1,22 @@
+.mui-table-view{
+	margin-top: 15px;
+}
+.safe-status{
+	float: right;
+	color: gray;
+	height: 16px;
+}
+.safe-status img{
+	height: 100%;
+	margin-right: 5px;
+}
+.safe-status *{
+	vertical-align: middle;
+}
+
+.mui-popover.mui-popover-action .mui-table-view {
+    margin: 0px;
+    text-align: center;
+    color: #000000;
+    border-radius: 0px;
+}

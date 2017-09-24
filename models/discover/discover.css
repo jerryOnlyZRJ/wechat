@@ -1,0 +1,26 @@
+.mui-table-view .mui-media-object  {
+    line-height: 28px;
+    max-width: 28px;
+    height: 28px;
+}
+.list-title{
+	line-height: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+.mui-table-view{
+	margin-bottom: 20px;
+}
+
+.red-point{
+	width: 6px;
+	height: 6px;
+	background-color: red;
+	display: inline-block;
+	border-radius: 50%;
+	position: absolute;
+	top: 9px;
+	right: 22px;
+	
+}

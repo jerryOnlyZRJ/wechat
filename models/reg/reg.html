@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../common/mui.css"/>
+		<script src="../../common/mui.js"></script>
+		<script type="text/javascript" src="../../common/bughd.min.js" crossOrigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="reg.css"/>
+		<link rel="stylesheet" type="text/css" href="../../common/app.css"/>
+	</head>
+	<body>
+		<header id="header" class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">注册</h1>
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    </header>
+	    <div class="mui-content">
+	        <form class="mui-input-group">
+				<div class="mui-input-row">
+					<label>账号</label>
+					<input id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入账号" pattern="/^[a-z0-9_-]{3,16}$/">
+				</div>
+				<div class="mui-input-row">
+					<label>密码</label>
+					<input id='password' type="password" class="mui-input-clear mui-input" placeholder="请输入密码">
+				</div>
+				<div class="mui-input-row">
+					<label>密码确认</label>
+					<input id='password_confirm' type="password" class="mui-input-clear mui-input" placeholder="请确认密码">
+				</div>
+				<div class="mui-input-row">
+					<label>邮箱</label>
+					<input id='email' type="email" class="mui-input-clear mui-input" placeholder="请输入邮箱">
+				</div>
+			</form>
+		<div class="mui-content-padded">
+			<button id="reg" type="button" class="mui-btn mui-btn-green mui-btn-block">注册</button>
+		</div>
+		<div class="mui-content-padded">
+				<p>注册真实可用，注册成功后的用户可用于登录</p>
+			</div>
+	    </div>
+	    <script type="text/javascript">
+			document.getElementById("account").oninvalid=function(){
+				this.setCustomValidity("填写账号请由字母或数字或下划线组成");
+			}
+		</script>
+		<script src="reg.js"></script>
+	</body>
+</html>

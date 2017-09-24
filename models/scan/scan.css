@@ -1,0 +1,16 @@
+.mui-bar{
+	background-color: #000000;
+}
+
+.mui-bar-tab{
+	height: 85px;
+}
+.mui-bar-tab .mui-tab-item.mui-active {
+    color: #03AD28;
+}
+#bcode{
+	position: absolute;
+	bottom: 85px;
+	top: 44px;
+	width: 100%;
+}
