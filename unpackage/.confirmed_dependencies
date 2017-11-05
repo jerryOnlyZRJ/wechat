@@ -1,0 +1,225 @@
+{
+	"models/login/login.html": {
+		"resources": [
+			"models/login/login.css",
+			"models/login/login.js",
+			"common/mui.js",
+			"common/mui.css",
+			"common/fonts/mui.ttf",
+			"common/app.css",
+			"models/reg/reg.html",
+			"common/bughd.min.js",
+			"models/login/login.html"
+		],
+		"refer": [
+			"models/main/main.html",
+			"models/reg/reg.html",
+			"models/login/login.html"
+		]
+	},
+	"models/main/main.html": {
+		"resources": [
+			"common/mui.js",
+			"common/mui.css",
+			"models/main/main.js",
+			"common/fonts/mui.ttf",
+			"models/message/message.html",
+			"common/fonts/iconfont.css",
+			"common/app.css",
+			"common/fonts/iconfont.woff",
+			"models/main/main.css",
+			"common/bughd.min.js"
+		],
+		"refer": [
+			"models/discover/discover.html",
+			"models/mine/mine.html",
+			"models/address-book/address-book.html",
+			"models/message/message.html"
+		]
+	},
+	"models/discover/discover.html": {
+		"resources": [
+			"models/discover/discover.js",
+			"models/discover/discover.css",
+			"common/app.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css",
+			"img/jerry.jpg",
+			"models/discover/friend.png",
+			"models/discover/near.png",
+			"models/discover/shopping.png",
+			"models/discover/shake.png",
+			"models/discover/game.png",
+			"models/discover/scan.png",
+			"common/bughd.min.js"
+		],
+		"refer": [
+			"models/shake/shake.html",
+			"models/scan/scan.html"
+		]
+	},
+	"models/mine/mine.html": {
+		"resources": [
+			"models/mine/mine.js",
+			"common/app.css",
+			"models/mine/mine.css",
+			"models/mine/code.png",
+			"models/mine/photo.png",
+			"models/mine/collection.png",
+			"models/mine/setting.png",
+			"img/jerry.jpg",
+			"models/mine/card.png",
+			"models/mine/face.png",
+			"models/mine/wallet.png",
+			"common/mui.css",
+			"common/mui.js",
+			"common/bughd.min.js",
+			"img/avatar.jpg"
+		],
+		"refer": [
+			"models/setting/setting.html"
+		]
+	},
+	"models/address-book/address-book.html": {
+		"resources": [
+			"models/address-book/address-book.js",
+			"models/address-book/address-book.css",
+			"common/app.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css",
+			"common/mui.indexedlist.css",
+			"img/N\u0026�\bD.jpg",
+			"img/jerry.jpg",
+			"img/$�.jpg",
+			"img/���.jpg",
+			"img/��.jpg",
+			"common/mui.indexedlist.js",
+			"img/N\u0026�\bD.jpg",
+			"img/$�.jpg",
+			"img/���.jpg",
+			"img/��.jpg",
+			"img/N\u0026�\bD.jpg",
+			"img/$�.jpg",
+			"img/���.jpg",
+			"img/��.jpg",
+			"common/bughd.min.js",
+			"img/dd.jpg",
+			"img/LI.jpg",
+			"img/SONG.jpg",
+			"img/LIN.jpg",
+			"img/newfriends.png",
+			"img/biaoqian.png",
+			"img/qunliao.png",
+			"img/gongzhonghao.png",
+			"img/gongda.jpg",
+			"models/chat/chat.html"
+		],
+		"refer": [
+			"models/chat/chat.html"
+		]
+	},
+	"models/message/message.html": {
+		"resources": [
+			"models/message/message.js",
+			"models/message/message.css",
+			"common/app.css",
+			"img/jerry.jpg",
+			"img/���.jpg",
+			"img/N\u0026�\bD.jpg",
+			"img/$�.jpg",
+			"img/��.jpg",
+			"img/���.jpg",
+			"img/N\u0026�\bD.jpg",
+			"img/$�.jpg",
+			"img/��.jpg",
+			"img/N\u0026�\bD.jpg",
+			"img/$�.jpg",
+			"img/���.jpg",
+			"img/��.jpg",
+			"common/mui.css",
+			"common/mui.js",
+			"common/bughd.min.js",
+			"img/SONG.jpg",
+			"img/dd.jpg",
+			"img/LIN.jpg",
+			"img/LI.jpg",
+			"img/shuke.png"
+		],
+		"refer": [
+			"models/chat/chat.html"
+		]
+	},
+	"models/shake/shake.html": {
+		"resources": [
+			"models/shake/shake.css",
+			"models/shake/shakeup.png",
+			"models/shake/shakedown.png",
+			"models/shake/shake.js",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/app.css",
+			"common/mui.css",
+			"common/bughd.min.js",
+			"models/shake/shake.wav",
+			"models/shake/back.jpg"
+		],
+		"refer": []
+	},
+	"models/scan/scan.html": {
+		"resources": [
+			"models/scan/scan.js",
+			"models/scan/scan.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/app.css",
+			"common/mui.css",
+			"common/bughd.min.js"
+		],
+		"refer": []
+	},
+	"models/setting/setting.html": {
+		"resources": [
+			"models/setting/lock.png",
+			"models/setting/setting.css",
+			"models/setting/setting.js",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/app.css",
+			"common/mui.css",
+			"common/bughd.min.js"
+		],
+		"refer": []
+	},
+	"models/reg/reg.html": {
+		"resources": [
+			"models/reg/reg.js",
+			"models/reg/reg.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/app.css",
+			"common/mui.css",
+			"common/bughd.min.js"
+		],
+		"refer": [
+			"models/login/login.html"
+		]
+	},
+	"models/chat/chat.html": {
+		"resources": [
+			"common/fonts/iconfont.woff",
+			"common/fonts/mui.ttf",
+			"models/chat/chat.css",
+			"common/mui.js",
+			"img/jerry.jpg",
+			"models/chat/chat.js",
+			"common/app.css",
+			"common/mui.css",
+			"common/fonts/iconfont.css",
+			"img/8326cffc1e178a82729d79b3f203738da977e804.jpg",
+			"img/avatar.jpg"
+		],
+		"refer": []
+	}
+}
