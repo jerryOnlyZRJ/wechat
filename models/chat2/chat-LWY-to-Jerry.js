@@ -62,7 +62,7 @@ document.getElementById('send').addEventListener('tap', function() {
 var Realtime = AV.Realtime;
 var TextMessage = AV.TextMessage;
 var realtime = new Realtime({
-	appId: 'Iiyq8Wju6I67ihgNpjUK4WcK-gzGzoHsz',
+	appId: '您的APPID',
 	region: 'cn',
 });
 

@@ -24,8 +24,8 @@ document.getElementById('login').addEventListener('tap',function(){
 			'password':passwordValue
 		},
 		headers:{
-			'X-LC-Id': 'Iiyq8Wju6I67ihgNpjUK4WcK-gzGzoHsz',
-			'X-LC-Key': 'iCD46rImtH3GwWGmMQwt8H36'
+			'X-LC-Id': '您的X-LC-Id',
+			'X-LC-Key': '您的X-LC-Key'
 		},
 		success:function(resp){
 			mui.toast('登陆成功！');

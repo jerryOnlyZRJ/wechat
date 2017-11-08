@@ -45,7 +45,7 @@ document.getElementById('send').addEventListener('tap',function(){
 	var responseValue=msgInput.value;
 	var url = 'http://www.tuling123.com/openapi/api';  
       mui.getJSON(url, {
-        'key':"9742207fc1474b2a985a9a3475f22fdd",
+        'key':"您的secretkey",
 		'info':msgValue,
 		'userid':"jerry"
       }, function(data){  
